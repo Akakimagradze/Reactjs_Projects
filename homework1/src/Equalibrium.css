@@ -1,0 +1,114 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.equalibrium-container {
+  background: rgba(21, 38, 63, 1);
+  box-shadow: 0px 25px 50px 0px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  height: 600px;
+  padding: 15px 20px;
+  border-radius: 7px;
+}
+
+.cube {
+  width: 100%;
+  border-radius: 5px;
+  position: relative;
+}
+
+.heading {
+  color: rgba(255, 255, 255, 1);
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.about {
+  color: rgba(139, 172, 217, 1);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 26px;
+}
+
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.eth-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100px;
+}
+.eth-container img {
+  width: 12px;
+  height: 20px;
+}
+
+.eth-amount {
+  color: rgba(0, 255, 248, 1);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.clock-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.clock-container img {
+  width: 16px;
+  height: 16px;
+}
+
+.left-days {
+  color: rgba(139, 172, 217, 1);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.human-section {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.human {
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+  border-radius: 100%;
+  border: 1px solid white;
+}
+
+.about-human {
+  color: rgba(139, 172, 217, 1);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  padding-left: 10px;
+}
+
+.name {
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+/* Hovers */
+.heading:hover,
+.name:hover {
+  color: rgba(0, 255, 248, 1);
+  transition: color 0.3s ease-in-out;
+  cursor: pointer;
+}
